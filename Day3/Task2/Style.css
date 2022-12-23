@@ -1,0 +1,43 @@
+.top{
+    width: 95%; 
+    height: 70px; 
+    background-color:#b90000; 
+    display: flex; 
+    flex-wrap: wrap;
+    margin: auto;
+}
+.top1{
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 7.5px 0px 0px 15px;
+    font-family:cursive;
+    width: 7.5%;
+}
+.top2{
+    color: white; 
+    font-size: 30px; 
+    font-weight:100; 
+    margin: 16.5px 10px 0 8px; 
+    font-family: 'Times New Roman'; 
+    width: 69%;
+}
+.top3{
+    color: white;
+    font-size: 15px; 
+    font-weight: 100; 
+    margin-left: 40px; 
+    margin-top: 23px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.mainnew{
+    width: 95%; 
+    height: 500px; 
+    background-color:#90b9c9; 
+    display: flex; 
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}

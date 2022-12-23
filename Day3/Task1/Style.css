@@ -66,6 +66,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(39, 28, 139);
 }
+img{
+    width: 100%;
+}
+img:hover::after{
+    width: 140%;
+    box-shadow: 2px 2px 2px 2px;
+}
 .news{
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
@@ -101,4 +108,28 @@ tr:nth-child(n+2){
 }
 tr:nth-child(n+5){
     background-color: rgb(241, 245, 218);
+}
+.active:active{
+    background-color: rgb(1, 187, 41);
+    color: rgb(135, 135, 255);
+}
+button:active{
+    background-color: rgb(1, 187, 41);
+    color: rgb(135, 135, 255);
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+    color: rgb(154, 154, 255);
+}
+.overheader{
+    box-shadow: 2px 2px 2px 2px rgb(255, 246, 243);
 }
