@@ -1,0 +1,5 @@
+let Name=prompt("Insert name")
+let surname=prompt("Insert surname")
+let city=prompt("Insert city")
+let age=prompt("Insert age")
+alert("Name:"+Name+"\nSurname:"+surname+"\nCity:"+city+"\nAge:"+age)
